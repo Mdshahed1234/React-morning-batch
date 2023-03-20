@@ -1,15 +1,16 @@
-
-import './App.css';
-import ComponentFour from './Components/ClassComponent/ComponentFour';
-import { ComponentOne } from './Components/ClassComponent/ComponentOne';
-import ComponentThree from './Components/ClassComponent/ComponentThree';
-import ComponentTwo from './Components/ClassComponent/ComponentTwo';
-import { Header } from './Components/ClassComponent/Header';
-import ComponentA from './Components/FunctionComponent/ComponentA';
-import ComponentB from './Components/FunctionComponent/ComponentB';
-import ComponentC from './Components/FunctionComponent/ComponentC';
-import ComponentD from './Components/FunctionComponent/CompponentD';
-import Counter from './Components/hd/Counter';
+import "./App.css";
+// import ComponentFour from "./Components/ClassComponent/ComponentFour";
+// import { ComponentOne } from "./Components/ClassComponent/ComponentOne";
+// import ComponentThree from "./Components/ClassComponent/ComponentThree";
+// import ComponentTwo from "./Components/ClassComponent/ComponentTwo";
+// import { Header } from "./Components/ClassComponent/Header";
+// import ComponentA from "./Components/FunctionComponent/ComponentA";
+// import ComponentB from "./Components/FunctionComponent/ComponentB";
+// import ComponentC from "./Components/FunctionComponent/ComponentC";
+// import ComponentD from "./Components/FunctionComponent/CompponentD";
+// import Counter from "./Components/Counter/Counter";
+import GetRequest from "./Components/Crud/GetRequest";
+import Read from "./Components/Crud/Read";
 
 function App() {
   // const linkName={
@@ -32,7 +33,9 @@ function App() {
       <ComponentTwo />
       <ComponentThree />
       <ComponentFour /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <GetRequest />
+      {/* <Read /> */}
     </div>
   );
 }
