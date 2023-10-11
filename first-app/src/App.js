@@ -1,4 +1,6 @@
 import "./App.css";
+import UseRef from "./Components/AudioTest/UseRef";
+import PostRequest from "./Components/Crud/PostRequest";
 // import ComponentFour from "./Components/ClassComponent/ComponentFour";
 // import { ComponentOne } from "./Components/ClassComponent/ComponentOne";
 // import ComponentThree from "./Components/ClassComponent/ComponentThree";
@@ -9,8 +11,8 @@ import "./App.css";
 // import ComponentC from "./Components/FunctionComponent/ComponentC";
 // import ComponentD from "./Components/FunctionComponent/CompponentD";
 // import Counter from "./Components/Counter/Counter";
-import GetRequest from "./Components/Crud/GetRequest";
-import Read from "./Components/Crud/Read";
+// import GetRequest from "./Components/Crud/GetRequest";
+// import Read from "./Components/Crud/Read";
 
 function App() {
   // const linkName={
@@ -34,8 +36,11 @@ function App() {
       <ComponentThree />
       <ComponentFour /> */}
       {/* <Counter /> */}
-      <GetRequest />
+      {/* <GetRequest /> */}
       {/* <Read /> */}
+      {/* <UseRef /> */}
+      <PostRequest />
+      <h1>hello</h1>
     </div>
   );
 }
